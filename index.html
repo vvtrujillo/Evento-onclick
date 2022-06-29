@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="body-content">
+        <div class="header">
+            <div id="title">
+                <h1>Dojonary</h1>
+            </div>
+            <div id="text-search">
+                <input type="text" placeholder="search">
+            </div>
+            <div id="btn-login">
+                <button onclick="cambiaLogin(this)">Login</button>
+            </div>
+        </div>
+        <div class="content">
+            <div id="col-ninja-desc">
+                <div id="ninja-desc">
+                    <div id="ninja-desc-r">
+                        <h1>Ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: <i>ninjas</i></p>
+                        <button onclick="aumentaLogin(this)">0 likes</button>                        
+                    </div>
+                    <div id="ninja-desc-l">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div id="ninja-desc">
+                    <div id="ninja-desc-r">
+                        <h1>Ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: <i>ninjas</i></p>
+                        <button onclick="aumentaLogin(this)">0 likes</button>                        
+                    </div>
+                    <div id="ninja-desc-l">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div id="col-def">
+                <div id="def">
+                    <p>Dojonary is defined by YOU</p>
+                    <button onclick="eliminaButton()" id="btnAddDef">Add Definition</button>
+                </div>
+            </div>            
+        </div>
+        <div id="footer"></div>
+    </div>    
+</body>
+</html>
